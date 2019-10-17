@@ -13,7 +13,7 @@ mybatis-plus:
   - classpath:mybatis/**/*.xml                       # mapper映射文件 需要创建文件
 
 spring:
-   profiles:dev
+   profiles: dev
    application:
     name: springcloud-dept						#微服务最重要的是取名字！微服务对外暴露的名字
    datasource:
