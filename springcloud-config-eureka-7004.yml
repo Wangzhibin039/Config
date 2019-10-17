@@ -11,7 +11,7 @@ server:
   port: 7004
 eureka:
   instance:
-    hostname: eureka7004.com  #指定主机  本地的域名映射
+    hostname: localhost  #指定主机  本地的域名映射
   client:
     register-with-eureka: false     #false表示不向注册中心注册自己
     fetch-registry: false           #false表示自己就是注册中心，职责是维护实例，不参加检索
@@ -27,7 +27,7 @@ server:
   port: 7005
 eureka:
   instance:
-    hostname: eureka7005.com  #指定主机  本地的域名映射
+    hostname: localhost  #指定主机  本地的域名映射
   client:
     register-with-eureka: false     #false表示不向注册中心注册自己
     fetch-registry: false           #false表示自己就是注册中心，职责是维护实例，不参加检索
